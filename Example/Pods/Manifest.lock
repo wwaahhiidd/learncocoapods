@@ -1,0 +1,16 @@
+PODS:
+  - learncocoapods (0.1.0)
+
+DEPENDENCIES:
+  - learncocoapods (from `../`)
+
+EXTERNAL SOURCES:
+  learncocoapods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  learncocoapods: 789d25c5502bb737e71887195f262e4d1f71f8e0
+
+PODFILE CHECKSUM: cc3f703b15b994ee078e5204afad69cf606b725c
+
+COCOAPODS: 1.9.1
