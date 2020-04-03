@@ -18,7 +18,7 @@ class Tests: XCTestCase {
        let testView = UIImageView ()
         testView.roundViewWith(borderColor: UIColor.red, borderSize: 3.0)
         XCTAssert(testView.layer.borderWidth == 3.0)
-    
+        
     }
     
  
