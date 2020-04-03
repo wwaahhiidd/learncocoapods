@@ -10,13 +10,13 @@
 		1013A41DD9A34B6D9A01551E74A59F29 /* Pods-learncocoapods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A72E965CAC2894E40FF562FFC3EBA2E1 /* Pods-learncocoapods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E113E2A8A8FF375056DB680952868F9 /* Pods-learncocoapods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C9849BAFA4B9F453D7F950790D0821 /* Pods-learncocoapods_Tests-dummy.m */; };
 		326204165852A53CD38C5847CA6B9E0F /* learncocoapods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6C750D57730276FF246798399F564 /* learncocoapods-dummy.m */; };
-		40F40B817FAA60F662DC0EFED3F48AF8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B4589AA69FFB788365F8D079534D76 /* ReplaceMe.swift */; };
 		5668E4C3AB015CC5CCE9ABA864B59094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		685BA0DE73F56F644FA2C2069BD24685 /* Pods-learncocoapods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D02C76013C3D1CF7F4F6DD86B4BACD /* Pods-learncocoapods_Example-dummy.m */; };
 		88AC7C1B504B386B792811994657AE81 /* Pods-learncocoapods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9C4E04A63FC952124F1E7D45A0C13E /* Pods-learncocoapods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B088300F6A7AFC38692E73C78779C8B8 /* learncocoapods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C011A6F7AF7DFFB8BD56D872F2B84D /* learncocoapods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA01B5B5017A0D8C90B45D1DF5761307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BB1C65B86EEDCAB44D81CA40F4B7FC32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BC52EE6D2436690B00620CE7 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52EE6C2436690B00620CE7 /* UIImageViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,10 @@
 		6BD6C750D57730276FF246798399F564 /* learncocoapods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "learncocoapods-dummy.m"; sourceTree = "<group>"; };
 		739D224B443A6C341C4A05F6DB1A6B0A /* learncocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = learncocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C7AFAC17DAFB1DEE6A07D88399EB45 /* learncocoapods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "learncocoapods-prefix.pch"; sourceTree = "<group>"; };
-		86B4589AA69FFB788365F8D079534D76 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = learncocoapods/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		967C8F26115FF4F0F7D734CF06B8BBEC /* Pods-learncocoapods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-learncocoapods_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A72E965CAC2894E40FF562FFC3EBA2E1 /* Pods-learncocoapods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-learncocoapods_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BC52EE6C2436690B00620CE7 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		C8C011A6F7AF7DFFB8BD56D872F2B84D /* learncocoapods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "learncocoapods-umbrella.h"; sourceTree = "<group>"; };
 		D0A4A471ACD3FFEAD7D3C701061DDB7A /* Pods_learncocoapods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learncocoapods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22C10CF4F8486DF6CB09A6F3C1301F1 /* Pods-learncocoapods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-learncocoapods_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,9 +119,9 @@
 		284FE993508BAF5C658ED5E0D44EB5C1 /* learncocoapods */ = {
 			isa = PBXGroup;
 			children = (
-				86B4589AA69FFB788365F8D079534D76 /* ReplaceMe.swift */,
 				D947BA4F3BF0D73E800CEC7D80AE9F3B /* Pod */,
 				A0BB3F7A33FE852A850716A5E5C2A1B7 /* Support Files */,
+				BC52EE6C2436690B00620CE7 /* UIImageViewExtensions.swift */,
 			);
 			name = learncocoapods;
 			path = ../..;
@@ -372,8 +372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC52EE6D2436690B00620CE7 /* UIImageViewExtensions.swift in Sources */,
 				326204165852A53CD38C5847CA6B9E0F /* learncocoapods-dummy.m in Sources */,
-				40F40B817FAA60F662DC0EFED3F48AF8 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F633D1B9B7102DF89428FA73199FDF36 /* learncocoapods.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -502,6 +503,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -513,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33935FB31E632A7AFA2C3F12E2BDA494 /* learncocoapods.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
